@@ -1,4 +1,4 @@
-package com.xulioxesus;
+package com.davidel;
 
 public class Alumno extends Persona{
     private String codigoXade;
