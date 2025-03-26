@@ -1,0 +1,49 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'C:/Users/a24davidel/Desktop/daw/CD/CD2024/ud04/doc/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/a24davidel/Desktop/daw/CD/CD2024/ud04/doc/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'doc 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/a24davidel/Desktop/daw/CD/CD2024/ud04/doc/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'doc 1.0-SNAPSHOT API'
+com.davidel
+C:\Users\a24davidel\Desktop\daw\CD\CD2024\ud04\doc\src\main\java = 1742976210775
+C:\Users\a24davidel\Desktop\daw\CD\CD2024\ud04\doc\target\reports\apidocs\allclasses-index.html = 1742979948309
+C:\Users\a24davidel\Desktop\daw\CD\CD2024\ud04\doc\target\reports\apidocs\allpackages-index.html = 1742979948311
+C:\Users\a24davidel\Desktop\daw\CD\CD2024\ud04\doc\target\reports\apidocs\copy.svg = 1742979948336
+C:\Users\a24davidel\Desktop\daw\CD\CD2024\ud04\doc\target\reports\apidocs\element-list = 1742979948270
+C:\Users\a24davidel\Desktop\daw\CD\CD2024\ud04\doc\target\reports\apidocs\help-doc.html = 1742979948332
+C:\Users\a24davidel\Desktop\daw\CD\CD2024\ud04\doc\target\reports\apidocs\index-all.html = 1742979948323
+C:\Users\a24davidel\Desktop\daw\CD\CD2024\ud04\doc\target\reports\apidocs\index.html = 1742979948326
+C:\Users\a24davidel\Desktop\daw\CD\CD2024\ud04\doc\target\reports\apidocs\link.svg = 1742979948337
+C:\Users\a24davidel\Desktop\daw\CD\CD2024\ud04\doc\target\reports\apidocs\member-search-index.js = 1742979948315
+C:\Users\a24davidel\Desktop\daw\CD\CD2024\ud04\doc\target\reports\apidocs\module-search-index.js = 1742979948312
+C:\Users\a24davidel\Desktop\daw\CD\CD2024\ud04\doc\target\reports\apidocs\overview-tree.html = 1742979948300
+C:\Users\a24davidel\Desktop\daw\CD\CD2024\ud04\doc\target\reports\apidocs\package-search-index.js = 1742979948313
+C:\Users\a24davidel\Desktop\daw\CD\CD2024\ud04\doc\target\reports\apidocs\script.js = 1742979948335
+C:\Users\a24davidel\Desktop\daw\CD\CD2024\ud04\doc\target\reports\apidocs\search-page.js = 1742979948341
+C:\Users\a24davidel\Desktop\daw\CD\CD2024\ud04\doc\target\reports\apidocs\search.html = 1742979948325
+C:\Users\a24davidel\Desktop\daw\CD\CD2024\ud04\doc\target\reports\apidocs\search.js = 1742979948339
+C:\Users\a24davidel\Desktop\daw\CD\CD2024\ud04\doc\target\reports\apidocs\stylesheet.css = 1742979948334
+C:\Users\a24davidel\Desktop\daw\CD\CD2024\ud04\doc\target\reports\apidocs\tag-search-index.js = 1742979948316
+C:\Users\a24davidel\Desktop\daw\CD\CD2024\ud04\doc\target\reports\apidocs\type-search-index.js = 1742979948314
