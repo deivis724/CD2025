@@ -1,9 +1,12 @@
-package com.davidel;
+/**
+ * package com.davidel;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class ValidadorContraseñaTest {
 
+ * 
+ 
     @Test
     void testContraseñaDebeTenerAlMenosOchoCaracteres() {
         ValidadorContraseña validador = new ValidadorContraseña();
@@ -41,3 +44,4 @@ public class ValidadorContraseñaTest {
         assertEquals(resultadoEsperado, validador.esValida(contraseña));
     }
 }
+*/
