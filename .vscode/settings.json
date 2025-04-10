@@ -1,0 +1,4 @@
+{
+    "java.checkstyle.configuration": "${workspaceFolder}\\CD2024\\ud04\\doc\\checkstyle.xml",
+    "java.configuration.updateBuildConfiguration": "interactive"
+}

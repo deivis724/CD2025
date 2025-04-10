@@ -1,10 +1,19 @@
 package com.davidel;
 
-public class TestPersona {
+public final class TestPersona {
+
+    // Constructor privado para evitar la instanciación
+    private TestPersona() {
+        throw new UnsupportedOperationException("Esta es una clase utilitaria y no debe ser instanciada.");
+    }
+
     public static void main(String[] args) {
         // Crear instancias de Persona
-        Persona persona1 = new Persona("David", 25);
-        Persona persona2 = new Persona("María", 30);
+        final int david = 25;
+        final int maria = 30;
+
+        Persona persona1 = new Persona("David", david);
+        Persona persona2 = new Persona("María", maria);
 
         // Imprimir detalles iniciales
         System.out.println("Detalles de Persona 1:");
@@ -15,10 +24,12 @@ public class TestPersona {
 
         // Modificar los atributos de las personas
         persona1.setNombre("Davidel");
-        persona1.setEdad(26);
+        final int person1 = 26;
+        persona1.setEdad(person1);
 
         persona2.setNombre("María Elisa");
-        persona2.setEdad(31);
+        final int person2 = 31;
+        persona2.setEdad(person2);
 
         // Imprimir detalles actualizados
         System.out.println("Detalles actualizados de Persona 1:");

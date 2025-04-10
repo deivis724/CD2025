@@ -1,14 +1,24 @@
 package com.davidel;
 
-public class TestEstudiante {
+public final class TestEstudiante {
+
+    // Constructor privado para evitar instanciación
+    private TestEstudiante() {
+        throw new UnsupportedOperationException("Esta clase no debe ser instanciada.");
+    }
+
     public static void main(String[] args) {
         // Crear instancias de Estudiante
-        Estudiante estudiante1 = new Estudiante("Laura", 20);
-        Estudiante estudiante2 = new Estudiante("Carlos", 16);
+        final int edad1 = 20;
+        final int edad2 = 16;
+        Estudiante estudiante1 = new Estudiante("Laura", edad1);
+        Estudiante estudiante2 = new Estudiante("Carlos", edad2);
 
         // Asignar calificaciones
-        estudiante1.setCalificacion(8.5);
-        estudiante2.setCalificacion(4.3);
+        final double calificacion1 = 8.5;
+        estudiante1.setCalificacion(calificacion1);
+        final double calificacion2 = 4.3;
+        estudiante2.setCalificacion(calificacion2);
 
         // Imprimir información
         estudiante1.imprimirInformacion();
@@ -26,3 +36,4 @@ public class TestEstudiante {
         System.out.println("¿Estudiante 2 es universitario?: " + estudiante2.esUniversitario());
     }
 }
+

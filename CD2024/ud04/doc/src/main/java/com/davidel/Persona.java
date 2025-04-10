@@ -12,7 +12,6 @@ public class Persona {
 
     /**
      * Constructor de la clase Persona.
-     * 
      * @param nombre El nombre de la persona
      * @param edad   La edad de la persona
      */
@@ -23,7 +22,6 @@ public class Persona {
 
     /**
      * Obtiene el nombre de la persona.
-     * 
      * @return El nombre de la persona
      */
     public String getNombre() {
@@ -32,7 +30,6 @@ public class Persona {
 
     /**
      * Establece el nombre de la persona.
-     * 
      * @param nombre El nuevo nombre de la persona
      */
     public void setNombre(String nombre) {
@@ -41,7 +38,6 @@ public class Persona {
 
     /**
      * Obtiene la edad de la persona.
-     * 
      * @return La edad de la persona
      */
     public int getEdad() {
@@ -50,7 +46,6 @@ public class Persona {
 
     /**
      * Establece la edad de la persona.
-     * 
      * @param edad La nueva edad de la persona
      */
     public void setEdad(int edad) {

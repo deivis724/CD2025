@@ -14,7 +14,6 @@ public class Estudiante {
     /**
      * Constructor que inicializa los atributos nombre y edad.
      * La calificación se establece por defecto en 0.0.
-     * 
      * @param nombre El nombre del estudiante.
      * @param edad La edad del estudiante en años.
      */
@@ -26,7 +25,6 @@ public class Estudiante {
 
     /**
      * Establece la calificación del estudiante.
-     * 
      * @param calificacion La calificación nueva del estudiante.
      */
     public void setCalificacion(double calificacion) {
@@ -35,7 +33,6 @@ public class Estudiante {
 
     /**
      * Obtiene el nombre del estudiante.
-     * 
      * @return El nombre del estudiante.
      */
     public String getNombre() {
@@ -44,7 +41,6 @@ public class Estudiante {
 
     /**
      * Establece un nuevo nombre para el estudiante.
-     * 
      * @param nombre El nuevo nombre del estudiante.
      */
     public void setNombre(String nombre) {
@@ -53,7 +49,6 @@ public class Estudiante {
 
     /**
      * Obtiene la edad del estudiante.
-     * 
      * @return La edad del estudiante en años.
      */
     public int getEdad() {
@@ -62,7 +57,6 @@ public class Estudiante {
 
     /**
      * Establece una nueva edad para el estudiante.
-     * 
      * @param edad La nueva edad del estudiante.
      */
     public void setEdad(int edad) {
@@ -71,7 +65,6 @@ public class Estudiante {
 
     /**
      * Obtiene la calificación actual del estudiante.
-     * 
      * @return La calificación del estudiante.
      */
     public double getCalificacion() {
@@ -81,31 +74,31 @@ public class Estudiante {
     /**
      * Verifica si el estudiante aprobó el curso.
      * Se considera aprobado si la calificación es mayor o igual a 5.0.
-     * 
      * @return true si el estudiante aprobó, false de lo contrario.
      */
     public boolean aprobo() {
-        return calificacion >= 5.0;
+        final double calificacin = 5.0;
+        return calificacion >= calificacin;
     }
 
     /**
      * Calcula los años escolares aproximados del estudiante.
      * Esto se calcula dividiendo la edad entre 12.
-     * 
      * @return Los años escolares aproximados.
      */
     public int edadEscolar() {
-        return edad / 12;
+        final int edaecolar = 12;
+        return edad / edaecolar;
     }
 
     /**
      * Verifica si el estudiante tiene edad para ser universitario.
      * Se considera universitario si la edad es mayor o igual a 18.
-     * 
      * @return true si es universitario, false de lo contrario.
      */
     public boolean esUniversitario() {
-        return edad >= 18;
+        final int edauniversi = 18;
+        return edad >= edauniversi;
     }
 
     /**

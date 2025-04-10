@@ -1,9 +1,18 @@
 package com.davidel;
 
-public class TestCirculo {
+public final class TestCirculo {
+
+    // Constructor privado para prevenir la instanciación
+    private TestCirculo() {
+        throw new UnsupportedOperationException("Esta clase no debe ser instanciada.");
+    }
+
     public static void main(String[] args) {
         // Crear una instancia de Circulo
-        Circulo circulo1 = new Circulo(10, 15, 7.5);
+        final int valorX = 10;
+        final int valorY = 15;
+        final double valorRadio = 7.5;
+        Circulo circulo1 = new Circulo(valorX, valorY, valorRadio);
 
         // Imprimir detalles iniciales del círculo
         System.out.println("Detalles del Círculo:");
@@ -11,13 +20,16 @@ public class TestCirculo {
 
         // Calcular y mostrar el área, el diámetro y la circunferencia
         System.out.println("Área: " + circulo1.obtenerArea());
-        System.out.println("Diámetro: " + circulo1.obtenerDiametro());
+        System.out.println("Diametro: " + circulo1.obtenerDiametro());
         System.out.println("Circunferencia: " + circulo1.obtenerCircunferencia());
 
         // Cambiar la posición y el radio del círculo
-        circulo1.establecerX(20);
-        circulo1.establecerY(25);
-        circulo1.establecerRadio(10.0);
+        final int establecerX = 20;
+        circulo1.establecerX(establecerX);
+        final int establecerY = 25;
+        circulo1.establecerY(establecerY);
+        final double establecerradio = 10.0;
+        circulo1.establecerRadio(establecerradio);
 
         // Imprimir los detalles después del cambio
         System.out.println("Detalles del Círculo (actualizados):");

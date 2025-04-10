@@ -1,7 +1,9 @@
 package com.davidel;
+
 /**
 * La clase circulo sirve para crear círculos en una posición y un tamaño que especifica su radio.
 */
+
 public class Circulo {
     private int x;  // Coordenada horizontal del centro del círculo.
     private int y;  // Coordenada vertical del centro del círculo.
@@ -56,7 +58,7 @@ public class Circulo {
     * @param valorRadio Nuevo tamaño del radio.
     */
     public void establecerRadio(double valorRadio) {
-        radio = (valorRadio < 0.0 ? 0.0 : valorRadio);  // Validación: el radio no puede ser negativo.
+        radio = valorRadio < 0.0 ? 0.0 : valorRadio;  // Validación: el radio no puede ser negativo.
     }
 
     /**
