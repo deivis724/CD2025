@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Estudiante.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">doc</a> &gt; <a href="index.source.html" class="el_package">com.davidel</a> &gt; <span class="el_source">Estudiante.java</span></div><h1>Estudiante.java</h1><pre class="source lang-java linenums">package com.davidel;
+
+/**
+ * La clase Estudiante representa a un estudiante con atributos básicos
+ * como nombre, edad y calificación, y métodos para interactuar con ellos.
+ */
+public class Estudiante {
+
+    // Atributos
+    private String nombre; // Nombre del estudiante.
+    private int edad;      // Edad del estudiante en años.
+    private double calificacion; // Calificación del estudiante, inicializada a 0.0.
+
+    /**
+     * Constructor que inicializa los atributos nombre y edad.
+     * La calificación se establece por defecto en 0.0.
+     * @param nombre El nombre del estudiante.
+     * @param edad La edad del estudiante en años.
+     */
+<span class="nc" id="L20">    public Estudiante(String nombre, int edad) {</span>
+<span class="nc" id="L21">        this.nombre = nombre;</span>
+<span class="nc" id="L22">        this.edad = edad;</span>
+<span class="nc" id="L23">        this.calificacion = 0.0;</span>
+<span class="nc" id="L24">    }</span>
+
+    /**
+     * Establece la calificación del estudiante.
+     * @param calificacion La calificación nueva del estudiante.
+     */
+    public void setCalificacion(double calificacion) {
+<span class="nc" id="L31">        this.calificacion = calificacion;</span>
+<span class="nc" id="L32">    }</span>
+
+    /**
+     * Obtiene el nombre del estudiante.
+     * @return El nombre del estudiante.
+     */
+    public String getNombre() {
+<span class="nc" id="L39">        return nombre;</span>
+    }
+
+    /**
+     * Establece un nuevo nombre para el estudiante.
+     * @param nombre El nuevo nombre del estudiante.
+     */
+    public void setNombre(String nombre) {
+<span class="nc" id="L47">        this.nombre = nombre;</span>
+<span class="nc" id="L48">    }</span>
+
+    /**
+     * Obtiene la edad del estudiante.
+     * @return La edad del estudiante en años.
+     */
+    public int getEdad() {
+<span class="nc" id="L55">        return edad;</span>
+    }
+
+    /**
+     * Establece una nueva edad para el estudiante.
+     * @param edad La nueva edad del estudiante.
+     */
+    public void setEdad(int edad) {
+<span class="nc" id="L63">        this.edad = edad;</span>
+<span class="nc" id="L64">    }</span>
+
+    /**
+     * Obtiene la calificación actual del estudiante.
+     * @return La calificación del estudiante.
+     */
+    public double getCalificacion() {
+<span class="nc" id="L71">        return calificacion;</span>
+    }
+
+    /**
+     * Verifica si el estudiante aprobó el curso.
+     * Se considera aprobado si la calificación es mayor o igual a 5.0.
+     * @return true si el estudiante aprobó, false de lo contrario.
+     */
+    public boolean aprobo() {
+<span class="nc" id="L80">        final double calificacin = 5.0;</span>
+<span class="nc bnc" id="L81" title="All 2 branches missed.">        return calificacion &gt;= calificacin;</span>
+    }
+
+    /**
+     * Calcula los años escolares aproximados del estudiante.
+     * Esto se calcula dividiendo la edad entre 12.
+     * @return Los años escolares aproximados.
+     */
+    public int edadEscolar() {
+<span class="nc" id="L90">        final int edaecolar = 12;</span>
+<span class="nc" id="L91">        return edad / edaecolar;</span>
+    }
+
+    /**
+     * Verifica si el estudiante tiene edad para ser universitario.
+     * Se considera universitario si la edad es mayor o igual a 18.
+     * @return true si es universitario, false de lo contrario.
+     */
+    public boolean esUniversitario() {
+<span class="nc" id="L100">        final int edauniversi = 18;</span>
+<span class="nc bnc" id="L101" title="All 2 branches missed.">        return edad &gt;= edauniversi;</span>
+    }
+
+    /**
+     * Imprime la información del estudiante (nombre, edad, calificación) en consola.
+     */
+    public void imprimirInformacion() {
+<span class="nc" id="L108">        System.out.println(&quot;Nombre: &quot; + nombre);</span>
+<span class="nc" id="L109">        System.out.println(&quot;Edad: &quot; + edad);</span>
+<span class="nc" id="L110">        System.out.println(&quot;Calificación: &quot; + calificacion);</span>
+<span class="nc" id="L111">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.4.201905082037</span></div></body></html>

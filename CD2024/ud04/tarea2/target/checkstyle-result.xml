@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.45.1">
+<file name="C:\Users\a24davidel\Desktop\daw\CD\CD2024\ud04\tarea2\src\main\java\com\davidel\App.java">
+</file>
+<file name="C:\Users\a24davidel\Desktop\daw\CD\CD2024\ud04\tarea2\src\main\java\com\davidel\Fecha.java">
+<error line="3" column="1" severity="error" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="31" column="5" severity="error" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="37" column="5" severity="error" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="C:\Users\a24davidel\Desktop\daw\CD\CD2024\ud04\tarea2\src\test\java\com\davidel\AppTest.java">
+</file>
+<file name="C:\Users\a24davidel\Desktop\daw\CD\CD2024\ud04\tarea2\src\test\java\com\davidel\FechaTest.java">
+<error line="6" column="1" severity="error" message="Orden incorrecto para el import &apos;org.junit.jupiter.api.Test&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="8" column="1" severity="error" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+</checkstyle>
