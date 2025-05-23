@@ -1,7 +1,11 @@
 package com.davidel;
 
 class BubbleSort{
-    
+/**
+ * BubbleSort es un algoritmo de ordenamiento que compara elementos adyacentes y los intercambia si están en el orden incorrecto.
+ * @param arr
+ * @param n
+ */    
     public void ordenar(int [] arr, int n)
     {
         int i, j, temp;

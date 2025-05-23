@@ -18,21 +18,21 @@ public class Producto {
         return nombre;
     }
 /**
- * 
+ * le devuelve el precio del producto
  * @return
  */
     public double getPrecio() {
         return precio;
     }
 /**
- * 
+ * le devuelve la cantidad del producto
  * @return
  */
     public int getCantidad() {
         return cantidad;
     }
 /**
- * 
+ * le devuelve el total del producto
  * @return
  */
     public double getTotal() {
